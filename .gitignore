@@ -1,3 +1,4 @@
+composer.phar
 /config/config.php
 /config/database.yml
 /log/*
@@ -9,4 +10,3 @@
 !/vendor/Horde
 !/vendor/ZipStream.php
 !/vendor/htmLawed
-

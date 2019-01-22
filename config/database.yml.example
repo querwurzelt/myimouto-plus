@@ -2,9 +2,10 @@
 # Only works with mysql adapter.
 login: &login
   adapter: mysql
-  host: 127.0.0.1
-  username: moe
-  password: imouto
+  host: localhost
+  username: user
+  password: password
+#  socket: /var/run/mysqld/mysqld.sock
 
 development:
   <<: *login
